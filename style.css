@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+margin: 0;
+padding: 0;
+font-family: "Poppins", sans-serif;
+box-sizing: border-box;
+}
+
+html,body {
+height: 100%;
+width: 100%;
+background-color: #78C2F1;
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+
+.main-container {
+height: 70%;
+width:  50%;
+background-color: #FFFFFF;
+}
+
+.container{
+padding:20px ;
+}
+
+.heading{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.input-field{
+margin-top: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+
+}
+
+
+.input-box{
+flex: 1;
+background-color: #EAEFF0;
+padding: 20px;
+width: 80%;
+border-radius: 30px;
+border: none ;
+
+}
+
+.add-button{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #31CC31;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+
+}
+
+.Alert{
+text-align: center; 
+margin-top: 30px;
+color: green;
+}
+
+
+.inner-item{
+margin-top:10px ;
+height: 50px;
+background-color: #EAEFF0;
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px 0 20px;
+}
+
+
+/* For mobile devices (up to 767px) */
+@media only screen and (max-width: 767px) {
+.main-container {
+width: 100%; /* Wider input field on mobile */
+height: 100%;
+}
+}
+
+
+
+
